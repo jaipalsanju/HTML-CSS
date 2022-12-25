@@ -1,0 +1,249 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family:'Josefin sans', sans-serif;
+    box-sizing: border-box;
+}
+.main{
+    width: 100%;
+    height:100vh;
+    background-image: url(jps.jpg);
+    background-size:cover;
+    background-position:center;
+
+}
+nav{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 45px;
+    padding-left: 10%;
+    padding-right: 10%;
+
+}
+.logo{
+    font-size: 30px;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+span{
+    color:red
+}
+nav ul li{
+    list-style-type:none;
+    display: inline-block;
+    padding: 10px 25px;
+}
+nav ul li a{
+    color:black;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+nav ul li a:hover{
+    color:red;
+}
+.content{
+    position: absolute;
+    top: 40%;
+    left: 10%;
+}
+h1{
+    color:rgb(2, 30, 28);
+    margin: 20px 0px 30px;
+    font-size: 40px;
+}
+h3{
+    color:rgb(82, 7, 77);
+    font-size: 25px;
+}
+.info{
+    width:100%;
+    padding: 100px 0px;
+    background-color: black;
+}
+.info img{
+    height:auto;
+    width:430px
+}
+.text{
+    width:550px;
+}
+.second{
+    width:1150px;
+    max-width: 95%;
+    justify-content: space-around;
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+}
+.text h2{
+    color:white;
+    font-size: 50px;
+}
+.text h4{
+    color:white;
+    font-size: 12px;
+    letter-spacing: 2px;
+    line-height: 50px;
+}
+.text p{
+    color:rgba(245, 245, 245, 0.597);
+    font-size: 15px;
+    line-height: 25px;
+    margin-bottom: 40px;
+    letter-spacing: 1px;
+    padding-top: 20px;
+}
+.second img{
+    border:4px solid green;
+    border-radius: 20px;
+}
+.inter{
+    width:100%;
+    padding: 100px 0px;
+    background-color: black;
+}
+.inter img{
+    height:auto;
+    width:430px;
+}
+.third-text{
+    width:550px;
+}
+.third{
+    width:1150px;
+    max-width: 95%;
+    justify-content: space-around;
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+}
+.third-text h1{
+    color:white;
+    font-size: 30px;
+}
+.third-text h5{
+    color:rgb(193, 220, 41);
+    font-size: 12px;
+    letter-spacing: 2px;
+}
+.third-text p{
+    color:rgba(245, 245, 245, 0.597);
+    font-size: 15px;
+    line-height: 25px;
+    margin-bottom: 40px;
+    letter-spacing: 1px;
+    padding-top: 20px;
+}
+.third img{
+    border:4px solid rgb(201, 13, 126);
+    border-radius: 20px;
+}
+.inter{
+    width:100%;
+    padding: 100px 0px;
+    background-color: black;
+}
+.inter img{
+    height:auto;
+    width:430px;
+}
+.third-text{
+    width:550px;
+}
+.third{
+    width:1150px;
+    max-width: 95%;
+    justify-content: space-around;
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+}
+.third-text h1{
+    color:white;
+    font-size: 30px;
+}
+.third-text h5{
+    color:rgb(193, 220, 41);
+    font-size: 12px;
+    letter-spacing: 2px;
+}
+.third-text p{
+    color:rgba(245, 245, 245, 0.597);
+    font-size: 15px;
+    line-height: 25px;
+    margin-bottom: 40px;
+    letter-spacing: 1px;
+    padding-top: 20px;
+}
+.third img{
+    border:4px solid rgb(201, 13, 126);
+    border-radius: 20px;
+}
+.Degree{
+    width:100%;
+    padding: 100px 0px;
+    background-color: black;
+}
+.Degree img{
+    height:auto;
+    width:430px;
+}
+.fourth-text{
+    width:550px;
+}
+.fourth{
+    width:1150px;
+    max-width: 95%;
+    justify-content: space-around;
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+}
+.fourth-text h1{
+    color:white;
+    font-size: 30px;
+}
+.fourth-text h5{
+    color:rgb(90, 111, 72);
+    font-size: 12px;
+    letter-spacing: 2px;
+}
+.fourth-text p{
+    color:rgba(245, 245, 245, 0.597);
+    font-size: 15px;
+    line-height: 25px;
+    margin-bottom: 40px;
+    letter-spacing: 1px;
+    padding-top: 20px;
+}
+.fourth img{
+    border:4px solid rgb(9, 207, 225);
+    border-radius: 20px;
+}
+footer{
+    background-color: black;
+    position: relative;
+    width: 100%;
+    height:100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+footer p:nth-child(1){
+    color:white;
+    font-size: 25px;
+    font-weight: bold;
+}
+footer p:nth-child(2){
+    color:aliceblue;
+    font-size: 15px;
+    line-height: 30px;
+}
+
+
+
+
+
